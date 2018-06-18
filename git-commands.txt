@@ -1,0 +1,9 @@
+git init  - create a new local repository
+git clone -Create a working copy of a local repository
+git add   -	Add one or more files to staging (index)
+git commit -m "Commit message"-Commit changes to head (but not yet to the remote repository)
+git push origin master-Send changes to the master branch of your remote repository
+git status-List the files you've changed and those you still need to add or commit
+git checkout -b <branchname>-	Create a new branch and switch to it
+git pull-Fetch and merge changes on the remote server to your working directory
+git checkout -- <filename>-If you mess up, you can replace the changes in your working tree with the last content in head
